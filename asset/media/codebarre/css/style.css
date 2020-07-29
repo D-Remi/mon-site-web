@@ -1,0 +1,61 @@
+
+
+h1{
+
+    text-align: center;
+    margin:0 auto;
+    font-weight: bold;
+
+}
+
+form{
+
+    width:70%;
+
+    margin:10px auto;
+
+    text-align: center;
+
+}
+
+
+
+label{
+
+    font-weight: bold;
+
+}
+
+
+
+input{
+
+    margin-top: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+    padding: 10px 40px;
+
+}
+
+
+
+#send{
+
+    background-color: cornflowerblue;
+
+    padding: 10px 25px;
+
+    font-weight: bold;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+h2{
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+[14-May-2020 12:43:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CodeBarre::affiche() in /home/y83ql3bc/public_html/asset/media/codebarre/index.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 24
+[14-May-2020 12:48:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method CodeBarre::affiche() in /home/y83ql3bc/public_html/asset/media/codebarre/index.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 24
+[14-May-2020 12:58:10 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/y83ql3bc/public_html/asset/media/codebarre/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 43
+[14-May-2020 12:58:35 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/y83ql3bc/public_html/asset/media/codebarre/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 43
+[14-May-2020 12:58:37 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/y83ql3bc/public_html/asset/media/codebarre/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 43
+[14-May-2020 13:03:27 UTC] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home/y83ql3bc/public_html/asset/media/codebarre/index.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 43
+[14-May-2020 13:28:53 UTC] PHP Notice:  Undefined index: code in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 43
+[14-May-2020 15:59:22 UTC] PHP Notice:  Undefined index: code in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 43
+[14-May-2020 15:59:29 UTC] PHP Notice:  Undefined index: code in /home/y83ql3bc/public_html/asset/media/codebarre/index.php on line 43

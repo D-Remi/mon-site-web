@@ -1,0 +1,85 @@
+/* General */
+body,
+html,
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none!important;
+}
+
+h2,li,p{
+    font-family: 'Baloo 2',cursive;
+}
+
+/* header */
+
+header{
+    background-image: url("../img/Accueil.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+header > div{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%,-5%);
+}
+
+.btn-init{
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    text-transform: none;
+    font-family: 'Lato',cursive;
+}
+/* main */
+
+.ctn-doc{
+    background: linear-gradient(180deg,#67A8FF,#65e9ff);
+    border-radius: 20px;
+}
+
+.ctn-doc div > input{
+    width: 250px;
+    border-radius: 15px;
+    border: none;
+}
+
+.form{
+    background-color: #dcdcdc;
+    border-radius: 15px!important;
+    width: 200px!important;
+    border: none;
+    margin: 5px 0;
+}a
+#text{
+    width: 400px;
+    margin: 5px 0;
+    border-radius: 10px;
+    background-color: #dfdfdf;
+    resize: none;
+    border: none;
+}
+.prg-1{
+    background-image: url("../img/ServiceEcole.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 70px!important;
+}
+.prg-2{
+    background-image: url("../img/ClasseVirtuelle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 20px;
+}
+.prg-3{
+    background-image: url("../img/ProGaming.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 20px;
+}

@@ -1,0 +1,106 @@
+/* Responsive style */
+@media only screen and (min-width: 980px) and (max-width: 1279px) {
+    /* For desktop: */
+     body .profil{
+        width: 70%!important;
+    }
+    body .container .paragraphe{
+        width: 100%;
+    }
+    .container h1{
+        margin-top: 5%;
+    }
+    body .paragraphe{
+        width: 90%!important;
+    }
+    body .container .wrapper-nav li  {
+       width:90%;
+       margin: 5px auto;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width: 1024px) {
+    /* For tablets: */
+    body .profil{
+        display:none;
+    }
+    .container .paragraphe{
+        margin-bottom: 5%!important;
+    }
+    body section div.container{
+        margin-top: 18%!important;
+    }
+    body p.paragraphe{
+        width: 90%!important;
+        font-size:30px!important;
+    }
+    
+    body .container .wrapper-nav li  {
+       width:90%;
+       margin: 5px auto;
+    }
+    
+}
+
+@media only screen and (min-width: 321px) {
+    ul{
+        margin-block-start: 0;
+
+    }
+    body .profil {
+        width:35%!important;
+    }
+    body section div.container{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    body section div.container h1{
+        margin-top:2%;
+        font-size:35px
+    }
+    body section .container ul.tlt ul li {
+        font-size:30px!important;
+    }
+    body .container .paragraphe{
+        width: 100%;
+        font-size: unset;
+        line-height:unset;
+    }
+    .container .wrapper-nav{
+        margin-top:0!important;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    /* For mobile: */
+    body .profil {
+        display: none;
+    }
+
+    body section div.container {
+        margin-top: 30%;
+    }
+    body section div.container h1{
+        font-size:40px
+    }
+    .container .tlt  {
+        font-size:25px!important;
+        ;
+    }
+    body .container .wrapper-nav ul{
+        padding-inline-start: 0;
+    }
+    body .container .wrapper-nav li  {
+       width:90%;
+       margin: 5px auto;
+    }
+    .paragraphe{
+        font-size:25px!important;
+        margin-bottom: 5%!important;
+    }
+    .line{
+        display:none;
+    }
+}
+

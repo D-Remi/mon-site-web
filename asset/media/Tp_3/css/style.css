@@ -1,0 +1,42 @@
+header{
+    height: 100vh;
+    background-image: url("../img/tigre.jpg");
+    background-size: cover;
+}
+
+li{
+    list-style: none;
+}
+
+#header2{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#tiger3{
+    position: relative;
+}
+
+#tiger3-div1{
+    position: absolute;
+    bottom: -60%;
+    right: 65%;
+}
+#tiger3-div2{
+    margin-right: 15%;
+}
+
+#tiger3-div2 button{
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+#tiger4{
+    background-image: url("../img/téléchargement.jpg");
+    background-size: cover;
+    margin: 7% auto;
+    padding-top: 30%;
+}
+
+#tiger4-div{
+    background-color: rgba(255, 255, 255, 0.4);
+}

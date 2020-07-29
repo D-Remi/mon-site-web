@@ -1,0 +1,160 @@
+
+.d-none {
+  display: none;
+}
+.circleNav {
+  z-index: 1222222222222;
+  position: fixed;
+  /*top: -$radius;
+    left: -$radius;*/
+  top: 0;
+  left: 0;
+  width: 15em;
+  height: 15em;
+  transition: width 0.3s, height 0.3s, -webkit-transform 0.3s;
+  transition: width 0.3s, height 0.3s, transform 0.3s;
+  transition: width 0.3s, height 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  border-bottom-right-radius: 100%;
+  /*transition: top 0.3s, left 0.3s;
+    &:hover {
+      top: -1em;
+      left: -1em;
+    }*/
+}
+.circleNav .linkCircle {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.circleNav .linkCircle::before {
+  position: absolute;
+  display: block;
+  color: white;
+  font-family: 'FontAwesome';
+  font-size: 1.5em;
+  top: 1em;
+  right: 1em;
+}
+
+.wrapcircles.closed .circleNav {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 5em;
+  height: 5em;
+  transition-delay: 0s;
+}
+.wrapcircles.closed #click {
+  -webkit-transform: none;
+  transform: none;
+  transition: all 0.3s;
+}
+.wrapcircles.closed #click span {
+  top: 1.125em;
+  right: 2em;
+}
+.wrapcircles.closed #click span::after {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.wrapcircles.closed #click span::before {
+  -webkit-transform: none;
+  transform: none;
+}
+
+#click {
+  cursor: crosshair;
+}
+
+#click span {
+  transition: bottom 0.3s, left 0.3s;
+  display: block;
+  width: 30px;
+  height: 30px;
+  top: 1em;
+  right: 1em;
+  position: absolute;
+}
+#click span::before,
+#click span::after {
+  display: block;
+  position: absolute;
+  font-family: inherit;
+  content: '';
+  width: 30px;
+  height: 8px;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+  top: 11px;
+  border-radius: 3px;
+  background: white;
+}
+#click span::before {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#click span::after {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.linkCircle {
+  font-weight: bold;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.c-1 {
+  background: #d8804b;
+  transition-delay: 0.1s, 0.1s, 0.1s;
+  -webkit-transform: rotate(18deg);
+  transform: rotate(18deg);
+}
+.c-1 .linkCircle::before {
+  -webkit-transform: rotate(-18deg);
+  transform: rotate(-18deg);
+  content: '\f2c2';
+}
+
+.c-2 {
+  background: #e47836;
+  transition-delay: 0.2s, 0.2s, 0.2s;
+  -webkit-transform: rotate(36deg);
+  transform: rotate(36deg);
+}
+.c-2 .linkCircle::before {
+  -webkit-transform: rotate(-36deg);
+  transform: rotate(-36deg);
+  content: '\f08c';
+}
+
+.c-3 {
+  transition-delay: 0.3s, 0.3s, 0.3s;
+  background: #ee7226;
+  -webkit-transform: rotate(54deg);
+  transform: rotate(54deg);
+}
+.c-3 .linkCircle::before {
+  -webkit-transform: rotate(-54deg);
+  transform: rotate(-54deg);
+  content: '\f0c6';
+}
+
+.c-4 {
+  transition-delay: 0.4s, 0.4s, 0.4s;
+  background: #f7650b;
+  -webkit-transform: rotate(72deg);
+  transform: rotate(72deg);
+}
+.c-4 .linkCircle::before {
+  -webkit-transform: rotate(-72deg);
+  transform: rotate(-72deg);
+  content: '\f09b';
+}
+
+.c-5 {
+  background: #cb875f;
+  z-index: 1;
+}

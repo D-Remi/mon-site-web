@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "super";
+    src: url(../font/crash-a-like.ttf)
+}
+
+body {
+    font-family: "super";
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../img/wallpaper.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo {
+    float: right;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.cls {
+    clear: both;
+}
+
+#paraIntro {
+    margin: 35px 0;
+    margin-left: 25px;
+}
+
+#intro,
+#para2,
+#para3,
+#para4 {
+    width: 45%;
+    text-align: center;
+}
+
+#section1 {
+    position: relative;
+    background-color: red;
+}
+
+button {
+    margin: 50px 0;
+    margin-left: 350px;
+    background-color: yellow;
+    color: red;
+    border-radius: 15px;
+    width: 300px;
+    height: 40px;
+    font-family: "super";
+    font-size: 25px;
+}
+
+#perso1 {
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 30%;
+}
+
+#section2,
+#section3,
+#section4 {
+    position: relative;
+    color: white;
+}
+
+#perso4,
+#perso2,
+#perso3 {
+    position: absolute;
+    width: 30%;
+}
+
+#section4 {
+    background-color: blue;
+}
+
+#section3 {
+    background-color: green;
+}
+
+#section2 {
+    background-color: black;
+}
+
+#para2,
+#para3,
+#para4 {
+    padding: 90px 0;
+}
+
+#para2,
+#para4 {
+    margin-left: 50%;
+}
+
+#perso3 {
+    bottom: 0px;
+    right: 15px;
+}
+
+#perso4 {
+    bottom: 0px;
+    width: 17%;
+    left: 0;
+}
+
+#perso2 {
+    left: 0;
+    bottom: 0px;
+    width: 300px;
+}
+
+li {
+    border: black 2px solid;
+    width: 30px;
+    height: 0px;
+    margin: 2px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 15px;
+    margin-top: 0;
+}
+
+@media screen and (max-width:800px) {
+    header {
+        background-color: cornflowerblue;
+        background-image: url(../img/wow4.png);
+    }
+    #paraIntro {
+        width: 100vh;
+    }
+    #perso1 {
+        display: none;
+    }
+    button {
+        margin-left: 250px;
+    }
+    #perso2 {
+        position: unset;
+        margin-left: 200px;
+    }
+    #para2 {
+        width: 100vh;
+        margin: unset;
+    }
+    #para3,
+    #para4 {
+        display: none;
+    }
+    #perso3,
+    #perso4 {
+        position: static;
+        width: 100%;
+    }
+    #logo {
+        width: 200px;
+    }
+}
